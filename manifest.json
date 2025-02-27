@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "QU PASS",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "OUT PASS",
   "browser_specific_settings": {
     "gecko": {
