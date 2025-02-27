@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QU ERP</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      padding: 10px;
+    }
+    #popup {
+      background-color: #fff;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    #btn,
+    #btn2 {
+      width: 80px;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      padding: 3px 0px;
+      cursor: pointer;
+    }
+    p {
+      position: absolute;
+      font-size: 5px;
+      bottom: -6px;
+      user-select: none;
+      color: #868484;
+    }
+  </style>
+  <body>
+    <div id="popup">
+      <button id="btn">NEW</button>
+      <button id="btn2">EXISTING</button>
+    </div>
+    <p>Aditya MCA</p>
+  </body>
+  <script src="./popup.js"></script>
+</html>

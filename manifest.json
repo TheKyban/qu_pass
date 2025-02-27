@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "QU PASS",
+  "version": "0.1.1",
+  "description": "OUT PASS",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aaditya1392@gmail.com"
+    }
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://qums.quantumuniversity.edu.in/GateEntryOutPass/Cyborg_Student_Leave_Apply*"
+      ],
+      "js": ["contentScript.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    "default_title": "QU PASS",
+    "default_popup": "popup.html"
+  }
+}
